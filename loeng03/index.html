@@ -10,36 +10,37 @@
 </head>
 
 <body>
-    <h1>Regamine</h1>
-    <form>
+    <div class="konteiner">
+        <h1>Regamine</h1>
+        <form>
 
-        <label for="kasutajanimi">Kasutajanimi:</label><br>
-        <input type="text" id="kasutajanimi" required><br><br>
+            <label for="nimi">Nimi:</label><br>
+            <input type="text" id="nimi" required><br><br>
 
-        <label for="parool">Parool:</label><br>
-        <input type="password" id="Parool" required><br><br>
+            <label for="kasutajanimi">Kasutajanimi:</label><br>
+            <input type="text" id="kasutajanimi" required><br><br>
 
-        <div> Sugu:</div>
-        <input type="radio" id="Naine" value="Naine" name="Sugu">
-        <label for="Naine">NAINE</label><br>
+            <label for="parool">Parool:</label><br>
+            <input type="password" id="Parool" minlength="6" required><br><br>
 
-        <input type="radio" id="Mees" value="Mees" name="Sugu">
-        <label for="Mees">MEES</label><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="Email" required><br><br>
 
-        <label for="Sugu">Vali Sugu:</label>
-        <select id="Sugu" name="Sugu">
-            <option value="Naine">Naine</option>
-            <option value="Mees">Mees</option>
-        </select>
+            <label for="kuupaev">Sünnikuupäev:</label><br>
+            <input type="date" id="kuupaev" max="2020-12-31" required><br><br>
 
-        <p></p>
-        <input type="checkbox" id="Tingimused" value="Ma olen tingimustega nõus" required> 
-        <label for="Ma olen tingimustega nõus">Ma olen tingimustega nõus </label><br><br> 
+            <label for="sugu">Sugu:</label><br>
+            <select name="sugu" id="Sugu">
+                <option value="naine">Naine</option>
+                <option value="mees">Mees</option>
+            </select><br><br>
 
-        <p></p>
-        <input type="submit" value="Registeeri">
-        <input type="reset"<br><br>
+            <input type="checkbox" id="nousolek" required>
+            <label for="nousolek">Kas nõustud <a href="" target="_blank">tingimustega</a>?</label><br><br>
 
-    </form>
+            <input type="submit" value="Registeeri">
+            <input type="reset" <br><br>
+        </form>
+    </div>
 </body>
 </html>
