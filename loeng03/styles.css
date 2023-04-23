@@ -1,8 +1,8 @@
 .konteiner {
     background-color: antiquewhite;
     background: rgb(34,193,195);
-    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
-    border: 3px solid pink;
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(240,230,140,1) 100%); 
+    border: 3px solid rgb(43, 226, 67);
     border-radius: 20px;
     max-width: 800px;
     min-width: 300px;
