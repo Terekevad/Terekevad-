@@ -126,3 +126,49 @@ body {
     bottom: -411px;
     z-index: -2;
 }
+
+footer {
+    margin: 1327px 56px 60px;
+    background: #F3F3F3 0% 0% no-repeat padding-box;
+}
+
+.jalus {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 200px;
+}
+
+.jalus >nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 70px 100px;
+}
+
+.jalus >nav>.vasak {
+    display: flex;
+}
+
+.jalus >nav>.vasak>img {
+    height: 70px;
+}
+
+.jalus>nav>.vasak>div {
+    font-size: 27px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.jalus >nav>.parem {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.jalus >nav>.parem>a {
+    font-weight: 700;
+    color: #000000;
+    text-decoration: none;
+    letter-spacing: 2.67px;
