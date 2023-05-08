@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.veebileht {
+    overflow-x: clip;
+}
+
+.pais {
+    height: 778px;
+    padding: 32px 76px 142px;
+    background-image: url(pildid/Hills.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin bottom: 200px;
+}
+
+.pais>nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pais>nav>.vasak {
+    display: flex;
+}
+
+.pais>nav>.vasak>img {
+    height: 82px;
+}
+
+.pais>nav>.vasak>div {
+    font-size: 33px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.pais>nav>.parem {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.pais>nav>.parem>a {
+    font-weight: 700;
+    color: #000000;
+    text-decoration: none;
+    letter-spacing: 2.67px;
+}
+
+.pais>.pealkirjad {
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    color: #000000;
+    font-weight: 800;
+    position: relative;
+    z-index: 1;
+}
+
+.pais>.pealkirjad>img {
+    position: absolute;
+    left: 531px;
+    top: -55px;
+}
+
+.pais>.pealkirjad>h1 {
+    margin-top: 231px;
+    font-size: 39.57px;
+    line-height: 42.74px;
+    z-index: 1;
+}
+
+.pais>.pealkirjad>h2 {
+    margin-top: -00px;
+    font-size: 74.39px;
+    line-height: 42.74px;
+    z-index: 1;
+    position: relative;
+}
+
+.pais>.pealkirjad>h2>img {
+    position: absolute;
+    top: -13px;
+    left: -39px;
+}
+
+.pais>.pealkirjad>h3 {
+    margin-top: -14px;
+    font-size: 20.83px;
+    line-height: 29.17px;
+    z-index: 1;
+}
+
+.pais>.pealkirjad>button {
+    font-size: 12.5px;
+    line-height: 29.17px;
+    letter-spacing: 2.25px;
+    color: #FFFFFF;
+    background: #0B0B0B 0% 0% no-repeat padding-box;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    cursor: pointer;
+    padding: 21.44px 22.5px 21.56px;
+    z-index: 1;
+}
+
+.pais>.pealkirjad>.girl-shadow>.girl {
+    position: absolute;
+    top: -231px;
+    right: -330px;
+    border-radius: 50%;
+    width: 914px;
+    height: 914px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    z-index: -1;
+}
+
+.pais>.pealkirjad>.girl-shadow>img {
+    position: absolute;
+    right: -427px;
+    bottom: -411px;
+    z-index: -2;
+}
